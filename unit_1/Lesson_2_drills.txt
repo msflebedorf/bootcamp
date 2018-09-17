@@ -1,0 +1,47 @@
+--drill 1
+SELECT
+	trip_id, duration
+FROM
+	trips
+WHERE duration > 500
+ORDER BY duration desc
+
+
+--drill 2
+SELECT
+	*
+FROM 
+	stations
+WHERE  
+	station_id = 84
+	
+
+--drill 3 and tests
+--zip is stored as int, precip as numeric
+--returns zero rows
+SELECT
+	zip, precipitationIn, mintemperatureF
+FROM
+	weather
+WHERE 
+	zip = 94301 AND precipitationIn > 0
+
+
+--check with test query  no precip in that zip
+SELECT
+	zip, precipitationIn, mintemperatureF
+FROM
+	weather
+WHERE 
+	zip = 94301
+ORDER BY precipitationIn desc
+
+
+--check 2  there is precip but not in that zip
+SELECT
+	zip, precipitationIn, mintemperatureF
+FROM
+	weather
+WHERE 
+	precipitationIn > 0
+ORDER BY zip
