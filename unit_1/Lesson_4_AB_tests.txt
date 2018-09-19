@@ -1,0 +1,28 @@
+Does a new supplement help people sleep better?
+Versions: People that take the supplement; people that take a placebo
+Sample: People of any gender, excluding pregnant women, between the age of 30 and 60, sleeping between the hours of 10 PM and 7 AM local time, taking the supplement or placebo at the same time of day.
+Hypothesis: I expect that it will take fewer minutes for people taking the supplement to fall asleep than for those taking the placebo.
+Outcome of interest: Minutes it takes to fall asleep after preparing for sleep
+Other measured variables: Number of times awake during the night (secondary measure of sleep quality); is the subject pregnant or not; minutes of screen time before bedtime; number of infant children ages 0 - 18 months present in the home.
+
+Will new uniforms help a gym's business?
+Versions: Sales staff wear new uniforms all day on alternating Tuesdays and Saturdays in September and October; sales staff wear the old uniforms on the opposite Tuesdays and Saturdays.
+Sample: New member signups on Tuesdays, Saturdays during the months of September and October (avoid January and Monday holidays)
+Hypothesis: I expect that new uniforms will not increase new member signups
+Outcome of interest: Number of new member signups
+Other measured variables:  Signups on Tuesdays and Saturdays during September and October last year; any other promotions that are running (try to avoid if possible); comments relayed to sales staff about the new uniforms.
+
+
+Will a new homepage improve my online exotic pet rental business?
+Versions: Visitors to the website during the first and third weeks in the month of October will see the new homepage; visitors during the second and fourth weeks will see the old homepage. Any values affecting search results should be held constant during the test period. Rental "inventory" should be the same throughout the period (same types of pets available).
+Sample: All visitors to the website, categorized based on whether they saw the old or new homepage.
+Hypothesis: I expect that a new homepage will increase revenue during the period when it is displayed.
+Outcome of interest: rental revenue during the test period
+Other measured variables: number of clicks past the homepage; number and revenue from each pet type
+
+If I put 'please read' in the email subject will more people read my emails?
+Versions: An email message with 'please read' in the subject line; an email message without 'please read'
+Sample: Two groups selected at random from all recipients of the email message
+Hypothesis: I expect that the message with the phrase 'please read' in the subject will be opened more frequently than the message without the phrase (unless 'please read' results in the message being classified as spam)
+Outcome of interest: The email message is opened
+Other measured variables: Length of time between send time and opening the email; number of bounces
