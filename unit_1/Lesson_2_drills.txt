@@ -24,7 +24,7 @@ SELECT
 FROM
 	weather
 WHERE 
-	zip = 94301 AND precipitationIn > 0
+	zip = 94301 AND precipitationIn > 0;
 
 
 --check with test query  no precip in that zip
@@ -34,7 +34,7 @@ FROM
 	weather
 WHERE 
 	zip = 94301
-ORDER BY precipitationIn desc
+ORDER BY precipitationIn desc;
 
 
 --check 2  there is precip but not in that zip
@@ -44,4 +44,4 @@ FROM
 	weather
 WHERE 
 	precipitationIn > 0
-ORDER BY zip
+ORDER BY zip;

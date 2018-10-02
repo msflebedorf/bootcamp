@@ -3,7 +3,7 @@ SELECT
 	date, max(maxtemperatureF) maxtemp
 FROM weather
 GROUP BY date
-ORDER BY maxtemp desc
+ORDER BY maxtemp desc;
 
 
 --drill 2
@@ -11,13 +11,13 @@ SELECT
 	start_station, count(trip_id) num_trips
 FROM trips
 GROUP BY start_station
-ORDER BY num_trips desc
+ORDER BY num_trips desc;
 
 --drill 3
 --The shortest trip was 60 (assume unit is minutes)
 SELECT 
 	min(duration) shortest_trip
-FROM trips
+FROM trips;
 
 --drill 4
 --average trip duration by end station
@@ -25,4 +25,4 @@ SELECT
 	end_station, AVG(duration) avg_duration
 FROM trips
 GROUP BY end_station
-ORDER BY end_station
+ORDER BY end_station;
