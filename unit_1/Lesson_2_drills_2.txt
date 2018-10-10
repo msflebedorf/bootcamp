@@ -14,7 +14,7 @@ GROUP BY start_station
 ORDER BY num_trips desc;
 
 --drill 3
---The shortest trip was 60 (assume unit is minutes)
+--The shortest trip was 60 (assuming unit is minutes)
 SELECT 
 	min(duration) shortest_trip
 FROM trips;
